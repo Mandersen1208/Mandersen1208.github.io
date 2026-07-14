@@ -97,21 +97,56 @@ Avoid / qualify:
 
 ## Sage-Nexus
 
-Status: `external-repo`
+Status: `external-repo-inspected`
 
 Evidence:
 
 - Public repo: `https://github.com/Mandersen1208/Sage-Nexus`
+- README inspected via GitHub API on 2026-07-13.
+- `docs/STATUS.md` inspected via GitHub API on 2026-07-13.
 
 Allowed claims:
 
-- Public Go repository.
-- Systems/agent-architecture exploration, conservatively framed.
+- Standalone Sage runtime extracted from OpenClaw.
+- Go manager/orchestration control plane.
+- React/Vite dashboard.
+- TypeScript MCP tool service.
+- Go ACP admission service.
+- Redis for task events, chat sessions, work context, and runtime state.
+- Postgres/pgvector canonical skill registry.
+- Docker Compose startup flow, runtime status docs, provider auth notes, and verification commands.
+- Systems thinking around orchestration, tool governance, session memory, and operational handoff.
 
 Avoid / qualify:
 
-- Do not make detailed architecture or production claims without inspecting and documenting the repo content.
-- Strengthen the public README before using this as a major recruiter signal.
+- Do not claim production deployment or external users.
+- Do not claim performance, scale, uptime, security compliance, or business outcomes without fresh evidence.
+
+## Other public repositories
+
+Status: `github-public-repo-inventory`
+
+Evidence:
+
+- Public GitHub repo inventory inspected via GitHub API on 2026-07-13.
+- ProjectDashbored README inspected via GitHub API on 2026-07-13.
+- Fintech-Bot- README inspected via GitHub API on 2026-07-13.
+- `matts-resume-site` and `ProfessionalPage` READMEs are Create React App boilerplate; describe only as earlier React/resume-page iterations.
+- `EmailApi` and `EmailAPIv2` have sparse/garbled README evidence; describe only by public repo name/language and conservative API-practice framing.
+
+Allowed linked repos:
+
+- `https://github.com/Mandersen1208/ProjectDashbored`
+- `https://github.com/Mandersen1208/Fintech-Bot-`
+- `https://github.com/Mandersen1208/EmailAPIv2`
+- `https://github.com/Mandersen1208/EmailApi`
+- `https://github.com/Mandersen1208/matts-resume-site`
+- `https://github.com/Mandersen1208/ProfessionalPage`
+
+Avoid / qualify:
+
+- Do not imply these are production systems unless the repo itself proves it.
+- Keep sparse repositories labeled as practice, historical, or earlier iterations.
 
 ## Publish blockers
 

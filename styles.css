@@ -431,6 +431,59 @@ main {
   padding-top: 1rem;
 }
 
+.more-projects {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.more-projects h3 {
+  margin: 0.35rem 0 0;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.repo-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repo-list li {
+  padding: 0.95rem;
+  border: 1px solid rgba(32, 36, 44, 0.08);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.repo-list a,
+.repo-list span {
+  display: block;
+}
+
+.repo-list a {
+  color: var(--ink);
+  font-weight: 850;
+  text-decoration-color: rgba(46, 82, 102, 0.35);
+  text-underline-offset: 0.2em;
+}
+
+.repo-list span {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .case-layout,
 .skills-grid {
   display: grid;
@@ -486,7 +539,8 @@ main {
   .hero,
   .intro-section,
   .resume-section,
-  .contact-section {
+  .contact-section,
+  .more-projects {
     grid-template-columns: 1fr;
   }
 
@@ -555,7 +609,8 @@ main {
   .mini-metrics,
   .project-grid,
   .case-layout,
-  .skills-grid {
+  .skills-grid,
+  .repo-list {
     grid-template-columns: 1fr;
   }
 
@@ -567,6 +622,7 @@ main {
   .resume-section,
   .contact-section,
   .project-card,
+  .more-projects,
   .hero-card {
     border-radius: 22px;
   }

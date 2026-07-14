@@ -20,7 +20,8 @@ Do not publish broadly until these are resolved or intentionally accepted.
 - [ ] Screenshot/social preview image for Guild Task Tracker.
 - [ ] Favicon.
 - [ ] Public/sanitized Twilio Intake case study page.
-- [ ] Stronger README/case study for Sage-Nexus.
+- [x] Sage-Nexus card strengthened from inspected public README/status docs.
+- [ ] Promote any additional public repo into a full case study if it becomes recruiter-relevant.
 - [ ] Custom domain decision.
 
 ## Current safe contact state

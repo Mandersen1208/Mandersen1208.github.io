@@ -20,7 +20,8 @@ This portfolio site presents resume-backed software verification, QA automation,
 
 - Guild Task Tracker — verified live app and public repository
 - Twilio / OpenClaw Intake Agent — local architecture/design package, not a launched production system
-- Sage-Nexus — public repository, conservatively framed until README/details are strengthened
+- Sage-Nexus - inspected public runtime architecture repository with Go manager, React dashboard, TypeScript MCP tooling, Redis, and Postgres/pgvector
+- More public projects - compact links to additional verified public repositories
 
 ## Before publishing
 
@@ -28,7 +29,7 @@ Replace or confirm:
 
 - Resume PDF
 - Whether to publish the phone number publicly
-- Whether Sage-Nexus should be featured publicly
+- Whether any additional public repos should be promoted into full case-study cards
 - Whether Twilio/OpenClaw intake should link to a public artifact or remain a local case study
 
 See:
