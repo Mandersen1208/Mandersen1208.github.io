@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Matt Andersen portfolio — software projects, AI workflow systems, automation, and practical product engineering."
+    />
+    <meta property="og:title" content="Matt Andersen | Software & AI Workflow Portfolio" />
+    <meta
+      property="og:description"
+      content="Practical software projects, AI workflow prototypes, automation, and deployment-minded product engineering."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f7f1ea" />
+    <title>Matt Andersen | Software & AI Workflow Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Matt Andersen home">
+          <span class="brand-mark">MA</span>
+          <span>Matt Andersen</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#work">Work</a>
+          <a href="#case-studies">Case studies</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Software builder · automation tinkerer · AI workflow explorer</p>
+          <h1>Building practical tools where software, AI agents, and real workflows meet.</h1>
+          <p class="hero-lede">
+            I like turning messy ideas into working systems: small apps, automation flows, agent-assisted
+            prototypes, and the documentation/testing needed to keep them usable after the first demo.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View projects</a>
+            <a class="button secondary" href="https://github.com/Mandersen1208" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Portfolio highlights">
+          <div class="signal-card">
+            <span class="signal-label">Current focus</span>
+            <strong>AI-assisted product prototypes</strong>
+            <p>React, TypeScript, OpenClaw workflows, automation, deployment, and QA-minded iteration.</p>
+          </div>
+          <div class="mini-metrics" aria-label="Portfolio stats">
+            <div><strong>3</strong><span>featured items</span></div>
+            <div><strong>6</strong><span>review perspectives</span></div>
+            <div><strong>1</strong><span>live app demo</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro-section" aria-labelledby="intro-title">
+        <div>
+          <p class="section-kicker">Positioning</p>
+          <h2 id="intro-title">A portfolio for practical engineering, not buzzwords.</h2>
+        </div>
+        <p>
+          This page is designed to support a resume conversation: what was built, why it mattered,
+          what tradeoffs were handled, and how quality was checked. The tone is intentionally human,
+          but the structure stays professional.
+        </p>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected work</p>
+          <h2 id="work-title">Projects with a story.</h2>
+          <p>Each project card is framed around outcome, engineering choices, and evidence.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span class="project-badge live">Live demo</span>
+              <span>React · TypeScript · PWA · GitHub Pages</span>
+            </div>
+            <h3>Guild Task Tracker <span class="title-note">(Kawaii Daily)</span></h3>
+            <p>
+              A lightweight task tracker published as Kawaii Daily: due dates, optional due
+              times, reminder settings, local persistence, and a PWA/service-worker foundation with documented limits.
+            </p>
+            <ul>
+              <li>Built a responsive React/Vite app with localStorage persistence.</li>
+              <li>Added best-effort reminders for tasks with both due date and due time, plus end-of-day reminder settings.</li>
+              <li>Fixed GitHub Pages deployment and service-worker cache staleness.</li>
+              <li>Created tracking docs for QA, data model, decisions, and follow-up work.</li>
+            </ul>
+            <div class="card-actions">
+              <a href="https://mandersen1208.github.io/guild-task-tracker/" target="_blank" rel="noopener noreferrer">Open demo</a>
+              <a href="https://github.com/Mandersen1208/guild-task-tracker" target="_blank" rel="noopener noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-badge case-study">Architecture</span>
+              <span>Twilio · OpenClaw · Agent workflow design</span>
+            </div>
+            <h3>Twilio OpenClaw Intake Agent</h3>
+            <p>
+              A Phase One architecture, UX, implementation-outline, data strategy, and QA-criteria package
+              for a virtual front-desk intake assistant: conversational capture, strict structured fields,
+              rich notes, guardrails, and local-first persistence planning.
+            </p>
+            <ul>
+              <li>Defined voice/SMS webhook boundaries and an intake-agent state model.</li>
+              <li>Separated strict structured fields from permissive-but-protected notes.</li>
+              <li>Produced architecture, implementation, UX, QA, and data strategy docs.</li>
+            </ul>
+            <div class="card-actions muted">
+              <span>Private/local case study artifact</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-badge system">Systems</span>
+              <span>Go · Systems exploration</span>
+            </div>
+            <h3>Sage-Nexus</h3>
+            <p>
+              A public Go repository representing broader systems and agent-architecture exploration.
+              This card is intentionally conservative until the repo has a stronger public README.
+            </p>
+            <ul>
+              <li>Useful as a technical depth signal once documented.</li>
+              <li>Good candidate for a future case study around distributed/agent systems.</li>
+            </ul>
+            <div class="card-actions">
+              <a href="https://github.com/Mandersen1208/Sage-Nexus" target="_blank" rel="noopener noreferrer">View repo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section case-study-section" id="case-studies" aria-labelledby="case-title">
+        <div class="section-heading">
+          <p class="section-kicker">Case study format</p>
+          <h2 id="case-title">How I explain the work in interviews.</h2>
+        </div>
+        <div class="case-layout">
+          <article class="case-panel">
+            <h3>1. Problem</h3>
+            <p>Start with the user need or workflow pain, not the technology. What was confusing, manual, or fragile?</p>
+          </article>
+          <article class="case-panel">
+            <h3>2. Build</h3>
+            <p>Show the implementation slice: data model, UI, deployment, validation, and tradeoffs.</p>
+          </article>
+          <article class="case-panel">
+            <h3>3. Evidence</h3>
+            <p>Point to build output, live demo, QA checklist, screenshots, or documented risks.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="section-kicker">Toolbox</p>
+          <h2 id="skills-title">Skills shown by the work.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <p>React, TypeScript, Vite, responsive CSS, PWA fundamentals, accessibility-minded UI.</p>
+          </div>
+          <div class="skill-group">
+            <h3>Automation & AI workflows</h3>
+            <p>Agent-assisted planning, prompt/process design, OpenClaw workflows, tool orchestration, documentation loops.</p>
+          </div>
+          <div class="skill-group">
+            <h3>Backend & integrations</h3>
+            <p>Twilio webhook planning, API boundaries, React/TypeScript delivery, lightweight Python utility scripting, and local-first persistence decisions.</p>
+          </div>
+          <div class="skill-group">
+            <h3>Delivery quality</h3>
+            <p>GitHub Pages deployment, CI build gates, QA checklists, decision tracking, issue/risk visibility.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resume-section" aria-labelledby="resume-title">
+        <div>
+          <p class="section-kicker">Resume-ready summary</p>
+          <h2 id="resume-title">Short version.</h2>
+        </div>
+        <div class="resume-copy">
+          <p>
+            Software builder focused on practical apps, automation, and AI-assisted workflows. Comfortable moving
+            from rough idea to usable prototype: defining scope, building the interface, handling deployment, and
+            documenting the tradeoffs needed for future iteration.
+          </p>
+          <p class="note">
+            Before publishing: add exact job titles, dates, contact details, and resume PDF if you want this to function as a full resume page.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Want the fuller story?</h2>
+          <p>
+            This draft uses only verified public links. Add a preferred email, LinkedIn URL, and resume PDF before publishing broadly.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://github.com/Mandersen1208" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+          <span class="button secondary pending-link">Email / LinkedIn / resume PDF to add</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Resume-ready portfolio draft built from verified project context. Contact and resume PDF still need final details.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
