@@ -26,7 +26,6 @@ This portfolio site presents resume-backed software verification, QA automation,
 
 Replace or confirm:
 
-- LinkedIn URL
 - Resume PDF
 - Whether to publish the phone number publicly
 - Whether Sage-Nexus should be featured publicly

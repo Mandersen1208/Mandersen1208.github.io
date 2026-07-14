@@ -8,7 +8,7 @@ Do not publish broadly until these are resolved or intentionally accepted.
 - [x] Target role/title added from resume.
 - [x] Real email address added from resume.
 - [x] Exact employment history, education, certifications, and dates added from resume.
-- [ ] LinkedIn URL added if available.
+- [x] LinkedIn URL added from user-provided profile.
 - [ ] Resume PDF added under `assets/` if desired.
 - [ ] Resume download link added if PDF exists.
 - [ ] Confirm whether phone number should remain private or be published.
@@ -25,4 +25,4 @@ Do not publish broadly until these are resolved or intentionally accepted.
 
 ## Current safe contact state
 
-The current draft uses the real email and GitHub URL from the provided resume. It intentionally omits the phone number from the public page unless explicitly confirmed. LinkedIn and resume PDF remain marked as missing.
+The current draft uses the real email, primary GitHub URL, and user-provided LinkedIn profile. It intentionally omits the phone number from the public page unless explicitly confirmed. Resume PDF remains marked as missing.

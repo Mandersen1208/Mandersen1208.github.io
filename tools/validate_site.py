@@ -23,6 +23,7 @@ required_text = [
     'Sage-Nexus',
     'mattandersen2016@gmail.com',
     'github.com/Mandersen1208',
+    'linkedin.com/in/matthew-steven-andersen',
 ]
 missing_text = [text for text in required_text if text not in html]
 

@@ -9,8 +9,9 @@ This file tracks which public/site claims are backed by known artifacts. Keep th
 - Public location: New Hill, NC.
 - Public email: `mattandersen2016@gmail.com`.
 - Public GitHub profile: `https://github.com/Mandersen1208` (primary account confirmed by user).
+- Public LinkedIn profile: `https://www.linkedin.com/in/matthew-steven-andersen/` (provided by user on 2026-07-13).
 - Phone number appears in the provided resume, but is intentionally omitted from the public web page unless the user explicitly confirms that it should be public.
-- LinkedIn and resume PDF are not yet provided.
+- Resume PDF is not yet provided.
 
 ## Resume / experience
 
@@ -33,7 +34,7 @@ Allowed claims:
 Avoid / qualify:
 
 - Do not publish phone number without explicit confirmation.
-- Do not add LinkedIn or a downloadable resume PDF until the user provides them.
+- Do not add a downloadable resume PDF until the user provides it.
 - Keep metrics tied to resume wording: approximately `$50K per month` savings, 16 engineers trained.
 
 ## Guild Task Tracker
