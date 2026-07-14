@@ -12,7 +12,8 @@ scripts = re.findall(r'src="([^"]+)"', html)
 missing = [f for f in linked + scripts if not (root / f).exists()]
 bad = [h for h in hrefs if h.startswith('#') and h != '#' and h[1:] not in ids]
 required_text = [
-    'Software Verification Engineer',
+    'Software Engineer',
+    'QA Automation Lead',
     'Applied Information Sciences',
     'General Motors',
     'Microsoft Graph APIs',
@@ -21,6 +22,7 @@ required_text = [
     'OpenClaw Intake Agent',
     'Sage-Nexus',
     'mattandersen2016@gmail.com',
+    'github.com/Mandersen1208',
 ]
 missing_text = [text for text in required_text if text not in html]
 

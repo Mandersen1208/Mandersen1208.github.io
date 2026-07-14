@@ -5,10 +5,10 @@ This file tracks which public/site claims are backed by known artifacts. Keep th
 ## Profile
 
 - Name used: Matthew / Matt Andersen
-- Source: user-provided NVIDIA-targeted resume text in chat on 2026-07-13.
+- Source: user-provided resume text in chat on 2026-07-13.
 - Public location: New Hill, NC.
 - Public email: `mattandersen2016@gmail.com`.
-- Public GitHub profile from resume: `https://github.com/msandersen2016`.
+- Public GitHub profile: `https://github.com/Mandersen1208` (primary account confirmed by user).
 - Phone number appears in the provided resume, but is intentionally omitted from the public web page unless the user explicitly confirms that it should be public.
 - LinkedIn and resume PDF are not yet provided.
 
@@ -16,7 +16,7 @@ This file tracks which public/site claims are backed by known artifacts. Keep th
 
 Status: `user-provided-resume`
 
-Source: user-provided NVIDIA-targeted resume text in chat on 2026-07-13.
+Source: user-provided resume text in chat on 2026-07-13.
 
 Allowed claims:
 
