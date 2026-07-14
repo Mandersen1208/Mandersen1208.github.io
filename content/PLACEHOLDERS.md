@@ -4,13 +4,14 @@ Do not publish broadly until these are resolved or intentionally accepted.
 
 ## Required before recruiter use
 
-- [ ] Preferred professional name confirmed.
-- [ ] Target role/title added or confirmed.
-- [ ] Real email address added, or contact intentionally limited to GitHub.
+- [x] Preferred professional name added from resume: Matthew / Matt Andersen.
+- [x] Target role/title added from resume.
+- [x] Real email address added from resume.
+- [x] Exact employment history, education, certifications, and dates added from resume.
 - [ ] LinkedIn URL added if available.
 - [ ] Resume PDF added under `assets/` if desired.
 - [ ] Resume download link added if PDF exists.
-- [ ] Exact employment history, education, certifications, and dates added only if verified.
+- [ ] Confirm whether phone number should remain private or be published.
 - [ ] Browser/mobile review completed after final copy.
 - [ ] Contrast/accessibility pass completed.
 
@@ -24,4 +25,4 @@ Do not publish broadly until these are resolved or intentionally accepted.
 
 ## Current safe contact state
 
-The current draft intentionally avoids fake clickable contact details. It links to the verified public GitHub profile and labels email/LinkedIn/resume PDF as details to add.
+The current draft uses the real email and GitHub URL from the provided resume. It intentionally omits the phone number from the public page unless explicitly confirmed. LinkedIn and resume PDF remain marked as missing.

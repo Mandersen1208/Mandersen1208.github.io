@@ -4,7 +4,7 @@ Static resume-friendly portfolio draft for Matt Andersen.
 
 ## Purpose
 
-This is a first-pass portfolio site that presents verified work without inventing employment history, education, credentials, or business metrics.
+This portfolio site presents resume-backed software verification, QA automation, API validation, and reliability-testing experience without inventing unsupported claims.
 
 ## Current status
 
@@ -12,7 +12,8 @@ This is a first-pass portfolio site that presents verified work without inventin
 - No bundler/framework required
 - Small deploy build script copies public site files into `dist/`
 - Designed for GitHub Pages or any static host
-- Contact/resume details are intentionally marked as missing instead of using fake links
+- Email/contact details are based on the user-provided resume
+- Phone number is intentionally omitted from the public page unless explicitly confirmed
 - Content evidence and publish blockers are tracked under `content/`
 
 ## Featured projects
@@ -25,11 +26,9 @@ This is a first-pass portfolio site that presents verified work without inventin
 
 Replace or confirm:
 
-- Email address or intentional GitHub-only contact path
 - LinkedIn URL
 - Resume PDF
-- Professional headline / target role
-- Any experience, education, certification, or job title details
+- Whether to publish the phone number publicly
 - Whether Sage-Nexus should be featured publicly
 - Whether Twilio/OpenClaw intake should link to a public artifact or remain a local case study
 

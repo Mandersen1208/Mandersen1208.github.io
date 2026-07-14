@@ -4,9 +4,37 @@ This file tracks which public/site claims are backed by known artifacts. Keep th
 
 ## Profile
 
-- Name used: Matt Andersen
-- Source confidence: inferred from GitHub username/context and existing repo naming (`matts-resume-site`). Confirm before public launch if a different professional name is preferred.
-- Contact: not yet provided. Do not publish a fake email, LinkedIn, phone number, or resume PDF.
+- Name used: Matthew / Matt Andersen
+- Source: user-provided NVIDIA-targeted resume text in chat on 2026-07-13.
+- Public location: New Hill, NC.
+- Public email: `mattandersen2016@gmail.com`.
+- Public GitHub profile from resume: `https://github.com/msandersen2016`.
+- Phone number appears in the provided resume, but is intentionally omitted from the public web page unless the user explicitly confirms that it should be public.
+- LinkedIn and resume PDF are not yet provided.
+
+## Resume / experience
+
+Status: `user-provided-resume`
+
+Source: user-provided NVIDIA-targeted resume text in chat on 2026-07-13.
+
+Allowed claims:
+
+- Target: Software Verification Engineer, QA Automation, API & System Reliability Testing.
+- 6 years of experience validating enterprise applications, APIs, backend workflows, and performance-sensitive systems.
+- Applied Information Sciences — Software Tester / QA Analyst, Remote, Dec 2024 – Present.
+- General Motors — Software Quality Engineer / QA Automation Lead, Roswell, GA, Oct 2020 – Aug 2023.
+- General Motors — Software Engineer, Roswell, GA, Aug 2023 – Aug 2024.
+- B.S. Computer Information Systems — Software Development, DeVry University, Lawrenceville, GA, Dec 2020.
+- Microsoft Certified: Azure Fundamentals (AZ-900).
+- Microsoft Certified: Azure AI Fundamentals (AI-900).
+- Skills listed in the resume: Python scripting, Java, SQL, JavaScript, TypeScript, Selenium, Playwright, JMeter, LoadRunner, Microsoft Graph API testing, Git, Jenkins, Azure DevOps, GitHub Actions, Docker, Kubernetes, CI/CD QA workflows, Spring, Angular, React exposure.
+
+Avoid / qualify:
+
+- Do not publish phone number without explicit confirmation.
+- Do not add LinkedIn or a downloadable resume PDF until the user provides them.
+- Keep metrics tied to resume wording: approximately `$50K per month` savings, 16 engineers trained.
 
 ## Guild Task Tracker
 
