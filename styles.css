@@ -274,35 +274,6 @@ main {
   color: rgba(255, 255, 255, 0.82);
 }
 
-.mini-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.7rem;
-  margin-top: 0.8rem;
-}
-
-.mini-metrics div {
-  padding: 0.9rem 0.65rem;
-  border: 1px solid rgba(32, 36, 44, 0.08);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-}
-
-.mini-metrics strong,
-.mini-metrics span {
-  display: block;
-}
-
-.mini-metrics strong {
-  font-size: 1.35rem;
-}
-
-.mini-metrics span {
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 750;
-}
-
 .section {
   padding: 4.5rem 0;
 }
@@ -606,7 +577,6 @@ main {
     font-size: clamp(2.45rem, 14vw, 4rem);
   }
 
-  .mini-metrics,
   .project-grid,
   .case-layout,
   .skills-grid,
